@@ -2,7 +2,7 @@
 
 Este é um simples gerador de senhas em Python que gera senhas aleatórias únicas misturando letras maiúsculas, minúsculas, números e símbolos. O código foi desenvolvido seguindo as boas práticas de segurança da informação. E como modo de facilitar preguiçosos como eu, ou pouco criativos em gerar suas suas senhas pessoais. 🤷‍♀️
 
-## Como Funciona
+## Como Funciona? 👇
 
 O gerador de senhas utiliza a biblioteca `random` do Python para gerar caracteres aleatórios e a biblioteca `string` para obter os conjuntos de caracteres a serem usados na criação das senhas.
 
