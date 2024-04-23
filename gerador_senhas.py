@@ -12,6 +12,7 @@ def verificar_repeticao(senha, senhas_geradas):
 def gerar_senhas_unicas(numero_senhas=5):
     senhas_geradas = set()
     senhas = []
+    
     while len(senhas) < numero_senhas:
         senha = gerar_senha()
         if verificar_repeticao(senha, senhas_geradas):
@@ -19,7 +20,6 @@ def gerar_senhas_unicas(numero_senhas=5):
             senhas_geradas.add(senha)
     return senhas
 
-# Gerar e imprimir até 5 senhas únicas
 senhas = gerar_senhas_unicas()
 for senha in senhas:
     print(senha)
